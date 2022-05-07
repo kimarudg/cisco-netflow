@@ -1,0 +1,23 @@
+{
+  "name": "cisco-netflow",
+  "version": "1.0.0",
+  "description": "cisco netfloow consumer",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimarudg/cisco-netflow.git"
+  },
+  "author": "david kimaru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimarudg/cisco-netflow/issues"
+  },
+  "homepage": "https://github.com/kimarudg/cisco-netflow#readme",
+  "dependencies": {
+    "@fxjs/netflow": "^1.0.0",
+    "node-netflowv9": "^0.2.16"
+  }
+}
